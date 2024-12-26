@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>오재진의 포트폴리오</title>
+</head>
+<body>
+    <!-- 타이핑 효과를 헤더처럼 사용 -->
+    <div class="typing-header">
+        <div class="typed-wrapper">
+            <span id="typed" class="typed"></span>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var options = {
+            strings: ["Hello", "I'm Jaejin Oh, a Web Publisher."], 
+            typeSpeed: 100,  
+            backSpeed: 50,   
+            backDelay: 1000, 
+            loop: true       
+        };
+        var typed = new Typed("#typed", options);
+    </script>
+
+    <!-- 메인 콘텐츠 -->
+    <div class="container">
+        <!-- 첫 번째 섹션: About Me -->
+        <section class="section-about">
+            <div class="about-me">
+                <div class="about-me-content">
+                    <h2>About Me</h2>
+                    <div class="picture">
+                        <img src="./picture/20221113_143527.jpg" alt="오재진">
+                    </div>
+                    <div class="description">
+                        <p>
+                            <strong>이름:</strong> 오재진 <br>
+                            <strong>생년월일:</strong> 1997.05.15 <br>
+                            <strong>주소:</strong> 서울 도봉구 방학동 신동아 아파트 <br>
+                            <strong>전화번호:</strong> 010-2684-9248 <br>
+                            <strong>이메일:</strong> ojj515@naver.com <br>
+                            <p class="highlight-text">안녕하세요! 저는 웹 퍼블리셔를 희망하는 오재진입니다.</p>
+                            <p class="highlight-text">웹 디자인과 개발의 매력에 빠져, 특히 HTML과 CSS를 활용한 웹 페이지 제작에 큰 흥미를 느끼고 있습니다.</p>
+                            <p class="highlight-text">사용자 친화적인 웹사이트를 만들기 위해 필요한 기술을 배우고 실력을 쌓아가고 있으며 앞으로도 계속해서 발전하고자 합니다.</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 두 번째 섹션: Skills -->
+        <section class="section-skills">
+            <div class="skills">
+                <h2>My Skills</h2>
+                <p class="description">
+                    HTML5, CSS3, JavaScript를 사용하여 웹 페이지를 제작할 수 있습니다<br>
+                    HTML과 CSS로 구조와 스타일을 구성하고<br>JavaScript를 활용해 동적 기능을 구현할 수 있습니다.<br>
+                    신입으로서 이러한 기술들을 바탕으로 웹 개발을 시작하였으며<br>
+                    앞으로 더욱 다양한 기술을 익혀 나갈 계획입니다.</p>
+                <div class="icon-container">
+                    <img src="./picture/html5.png" alt="HTML5" class="icon"> 
+                    <img src="./picture/css.png" alt="CSS3" class="icon"> 
+                    <img src="./picture/js.png" alt="JavaScript" class="icon">
+                </div>
+            </div>
+        </section>
+        <section class="section-tools">
+            <div class="tools">
+                <h2>Used Tools</h2>
+                <p class="description">
+                    Vscode를 사용해 코드 작성과 디버깅을 할 수 있습니다.<br>
+                    Photoshop으로 간단한 디자인 작업을 할 수 있으며,<br>
+                    Figma는 기본적인 사용법을 알고 있지만<br>
+                    좀 더 능숙한 사용을 위해 기술을 단련하고 있는 중입니다.<br>
+                    이러한 도구들을 익히며 웹 개발과 디자인 능력을 키워가고 있습니다.
+                </p>
+                <div class="icon-container">
+                    <img src="./picture/vscode.png" alt="Vscode" class="icon" title="Vscode"> 
+                    <img src="./picture/photoshop.png" alt="Photoshop" class="icon"> 
+                    <img src="./picture/figma.png" alt="Figma" class="icon"> 
+                </div>
+            </div>
+        </section>
+        <!-- 세 번째 섹션: Work Experience -->
+        <section class="section-education-experience">
+            <div class="education-experience">
+                <h2>Education & Experience</h2>
+                <div class="education">
+                    <div class="education-details">
+                        <h3>이젠컴퓨터아카데미 <span class="location">- 풀스택 개발 과정</span></h3>
+                        <div class="location">서울</div>
+                    </div>
+                    <div class="date">2024.04 - 2024.10</div>
+                </div>
+                <div class="education">
+                    <div class="education-details">
+                        <h3>강원대학교 <span class="location">- 국어국문학과 졸업</span></h3>
+                        <div class="location">강원도 - 춘천</div>
+                    </div>
+                    <div class="date">2017.03 - 2024.02</div>
+                </div>
+                <div class="education">
+                    <div class="education-details">
+                        <h3>효문고등학교 <span class="location">- 일반계 졸업</span></h3>
+                        <div class="location">서울 - 쌍문동</div>
+                    </div>
+                    <div class="date">2013.03 - 2016.02</div>
+                </div>
+            </div>
+        </section>
+        <!-- 네 번째 섹션: Work Experience -->
+        <section class="section-work-experience">
+            <div class="work-experience">
+                <h2>Work Experience</h2>
+                <div class="work-item">
+                    <div class="work-image">
+                        <img src="./picture/project1.png" alt="Project 1">
+                    </div>
+                    <div class="work-description">
+                        <a href="https://lattea.netlify.app/" target="_blank" class="work-link">Project 1</a>
+                        <p>가상의 카페 Lattéa 웹을 개설해보았습니다<br> 
+                           HTML, CSS, JavaScript를 활용하여 웹의 기본적인 틀을 구현했습니다.</p>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="work-image">
+                        <img src="./picture/project2.png" alt="Project 2">
+                    </div>
+                    <div class="work-description">
+                        <a href="https://jaeger-lecoultre.netlify.app/" target="_blank" class="work-link">Project 2</a>
+                        <p>명품 시계 브랜드 예거 르쿨트르의 구매창을 제 디자인대로 구성해봤습니다<br>
+                            HTML, CSS, JavaScript를 활용하여 웹의 기본적인 틀을 구현했습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 다섯 번째 섹션: Contact Me -->
+        <section class="section-contact">
+            <div class="contact">
+                <h2>Contact Me</h2>
+                <p>언제든지 연락주세요</p>
+                <div class="contact-details">
+                    <div><span class="contact-label">Address</span> <br>서울시 도봉구 방학동</div>
+                    <div><span class="contact-label">Cell phone</span> <br>010-2684-9248</div>
+                    <div><span class="contact-label">E-mail</span> <br>ojj515@naver.com</a></div>
+                    <div><span class="contact-label">Web Site</span> <br></a>example.com</div>
+                </div>
+            </div>
+        </section>
+    <!-- 푸터 -->
+    <footer>
+        <p>&copy; 2024 오재진. 모든 권리 보유.</p>
+        <div>
+            <a href="https://blog.naver.com/ojj515" target="_blank">
+                <img src="picture/navericon.png" alt="네이버 블로그" width="30" height="30">
+            </a>
+            <a href="https://github.com/ojj515" target="_blank">
+                <img src="picture/github.png" alt="GitHub" width="30" height="30">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
